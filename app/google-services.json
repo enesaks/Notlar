@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "333684531393",
+    "project_id": "notlar-01",
+    "storage_bucket": "notlar-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333684531393:android:21093c947ee43b3a9bf440",
+        "android_client_info": {
+          "package_name": "com.example.notlar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUlm8FTZDTs_QutJMERLFuRHIM35n1jGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

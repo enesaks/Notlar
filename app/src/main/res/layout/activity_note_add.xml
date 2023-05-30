@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".NoteAdd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/notBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/notIcerik"
+        android:layout_width="match_parent"
+        android:layout_height="602dp"
+        android:background="@android:color/transparent"
+        android:focusableInTouchMode="true"
+        android:gravity="top|start"
+        android:hint="take notes"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:singleLine="false"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/sil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textSize="13sp"
+            android:layout_margin="1dp"
+            android:text="Delete Note" />
+
+        <Button
+            android:id="@+id/kaydet"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_background"
+            android:textSize="13sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:text="Save Note" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
