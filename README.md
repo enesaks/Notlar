@@ -178,7 +178,7 @@ Giriş Kontrolu yapan ve üye kaydı tutan basit not uygulaması
  
  
  
- kaydet.setOnClickListener(new View.OnClickListener() {
+            kaydet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 txtNotes = notes.getText().toString();
@@ -208,7 +208,7 @@ Giriş Kontrolu yapan ve üye kaydı tutan basit not uygulaması
  
  
  
- sil.setOnClickListener(new View.OnClickListener() {
+            sil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String silinecekBaslik = notTitle.getText().toString();
