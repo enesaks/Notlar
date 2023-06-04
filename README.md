@@ -6,8 +6,8 @@ Giriş Kontrolu yapan ve üye kaydı tutan basit not uygulaması
 
 
 #Giriş Kontorlü Kodları 
-<code>
-btnLogin.setOnClickListener(new View.OnClickListener() {
+
+            btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 passaword = edtPassaword.getText().toString();
@@ -33,12 +33,12 @@ btnLogin.setOnClickListener(new View.OnClickListener() {
                 }
             }
         });
-<code>
+
  #Üye Ekleme Kodları 
  
  
  
- btnRegister.setOnClickListener(new View.OnClickListener() {
+            btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -73,7 +73,7 @@ btnLogin.setOnClickListener(new View.OnClickListener() {
  
  
  
-  public void recyclerVieww() {
+        public void recyclerVieww() {
         dataList = new ArrayList<>();
         adapter = new MyAdapter(dataList, this);
 
@@ -102,11 +102,11 @@ btnLogin.setOnClickListener(new View.OnClickListener() {
  
  
 
- package com.example.notlar;
+    package com.example.notlar;
 
  
 
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+    public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     private final ItemClickListener itemClickListener;
 
