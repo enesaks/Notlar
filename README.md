@@ -10,7 +10,7 @@ Giriş Kontrolu yapan ve üye kaydı tutan basit not uygulaması
 
 
 
-#Giriş Kontorlü Kodları 
+# Giriş Kontorlü Kodları 
 
             btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
