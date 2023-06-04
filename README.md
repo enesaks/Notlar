@@ -1,5 +1,8 @@
 # Notlar
  Notlar Uygulaması ![video](https://github.com/enesaks/Notlar/assets/98012557/7280440f-0745-4ad7-a36a-68653f33ce5f)
+ 
+ 
+ 
  ![](https://github.com/enesaks/Notlar/assets/98012557/1ffd47e0-1157-4458-ad81-0f80582ea5ae)
 
 
