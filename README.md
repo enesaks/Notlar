@@ -6,9 +6,7 @@ Giriş Kontrolu yapan ve üye kaydı tutan basit not uygulaması
 
 
 #Giriş Kontorlü Kodları 
-
-
-
+<code>
 btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,8 +33,7 @@ btnLogin.setOnClickListener(new View.OnClickListener() {
                 }
             }
         });
-
- 
+<code>
  #Üye Ekleme Kodları 
  
  
